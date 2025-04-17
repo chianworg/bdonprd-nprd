@@ -200,7 +200,7 @@ management_group_settings = {
     }
 
     # Example of how to update a policy assignment enforcement mode for DDOS Protection Plan
-    connectivity = {
+    mg-platform-connectivity-npd = {
       policy_assignments = {
         Enable-DDoS-VNET = {
           enforcement_mode = "DoNotEnforce"
